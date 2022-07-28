@@ -1,0 +1,20 @@
+h1.home {
+    background-color: darkgrey;
+    color: aqua;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bullet.home {
+    color: plum;
+    font-size: 36px;
+}
+
+.recipe-link {
+    background-color: rgba(186, 186, 186, 0.636);
+    color: rgb(97, 127, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+}

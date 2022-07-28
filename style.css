@@ -1,4 +1,6 @@
-h1.home {
+/* homepage styling below */
+
+h1 {
     background-color: darkgrey;
     color: aqua;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -7,14 +9,77 @@ h1.home {
     text-align: center;
 }
 
+h1.home {
+    font-size: 100px;
+    line-height: 55px;
+}
+
+#link-container {
+    background-color: rgba(255, 182, 255, 0.655);
+    padding: 100px;
+}
+
 .bullet.home {
-    color: plum;
-    font-size: 36px;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 100px;
 }
 
 .recipe-link {
-    background-color: rgba(186, 186, 186, 0.636);
     color: rgb(97, 127, 248);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/* recipe pages styling below */
+
+#lasagna-bg {
+    background-color: rgb(200, 160, 221);
+}
+
+#butt-chick-bg {
+    background-color: rgb(160, 221, 183);
+}
+
+#ham-om-bg {
+    background-color: rgb(221, 198, 160);
+}
+
+.food-img {
+    height: auto;
+    width: auto;
+}
+
+.desc-container {
+    background-color: rgba(47, 79, 79, 0.538);
+}
+
+.ingr-container {
+    background-color: rgba(80, 137, 137, 0.606);
+}
+
+.step-container {
+    background-color: rgba(126, 211, 211, 0.485);
+}
+
+h2,
+h3,
+p,
+ul,
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
     font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 27px;
 }
